@@ -1,0 +1,102 @@
+/*Reset Rules*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/*/////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*Index File Styles*/
+
+html {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding: 0%;
+	margin: 0%;
+	text-align: center;
+	font-family: "Chewy", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.ImageBackground img {
+	width: 100vw;
+	height: 100vh;
+	padding: 0%;
+	margin: 0%;
+	position: absolute;
+	z-index: -2;
+	top: 0%;
+	left: 0%;
+}
+
+.OverheadLogo img {
+	width: 15%;
+	height: 15%;
+	padding: 1.5%;
+
+}
+
+h1 {
+	padding: 1%;
+	font-size: 4em;
+	color: white;
+	background-color: rgb(37, 150, 190);
+	width: 50%;
+	border-radius: .5em;
+	margin: auto;
+}
+
+p {
+	color: white;
+}
+
+.ButtonOption {
+	padding: 7%;
+	height: 40%;
+	position: relative;
+	
+}
+
+.ButtonOption img {
+	width: 40%;
+	z-index: -1;
+	position: absolute;	
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.ButtonOption p {
+	margin: auto;
+	font-size: 350%;
+}
