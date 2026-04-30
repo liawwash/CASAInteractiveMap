@@ -111,6 +111,10 @@ h1 {
 	left: 24%;
 }
 
+.bold {
+	font-size: 3em;
+}
+
 h2 {
 	padding: .5%;
 	margin-top: 2.5%;
